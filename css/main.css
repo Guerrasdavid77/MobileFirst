@@ -147,7 +147,7 @@ main {
 
 .main-table{
     display: flex;
-    justify-content: center;
+    height: 350px;
     overflow-x: scroll;
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
@@ -169,7 +169,7 @@ main {
     font-size: 1.8rem;
     line-height: 2.3rem;
     color: #ff9536;
-    margin-right: 130px;
+   
 }
 
 .currency__table-container{
@@ -238,7 +238,10 @@ main {
     background-repeat: no-repeat;
     background-position: center;
 }
-
+.main-table{
+    display: flex;
+    justify-content: center;
+}
 .currency__table-date{
     width: 190px;
     height: 31px;
@@ -280,7 +283,6 @@ main {
     font-size: 1.8rem;
     line-height: 2.3rem;
     color: #1a9af7;
-    margin-right: 130px;
 }
 .commissions__table-container{
     width: 90%;
@@ -344,13 +346,12 @@ main {
     line-height: 1.5rem;
     color: var(--warm-black);
 }
-
 .main-product-detail { 
     position: relative;
     width: 100%;
     min-width: 320px;
     background-color: #201E1C;
-    padding: 20px 10px;
+    padding: 20px 0;
 }
 .product-detail--batata-logo img{
     position: absolute;
@@ -384,11 +385,13 @@ main {
     line-height: 1.8rem;
     color: #808080;
 }
-
+.product-cards--container{
+    display: block;
+}
 .product-detail--card {
     width: 90%;
     min-width: 288px;
-    max-width: 400px;
+    max-width: 350px;
     min-height: 150px;
     margin: 15px auto;
     padding: 15px;
@@ -464,12 +467,7 @@ main {
     padding-top: 64px;
 }
 /* PLANS */
-.plans-container--slider{
-    display: flex;
-    height: 316px;
-    overflow-x: scroll;
-    overscroll-behavior-x: contain;
-}
+
 .main-plans-container{
     background: #E5E5E5;
     width: 100%;
@@ -506,7 +504,7 @@ main {
 
 .plans-container--slider{
     display: flex;
-    height: 316px;
+    height: 326px;
     overflow-x: scroll;
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
@@ -516,7 +514,7 @@ main {
     scroll-snap-align: center;
     width: 70%;
     min-width: 190px;
-    max-width: 300px;
+    max-width: 100px;
     height: 250px;
     margin: 50px 20px 0;
     padding: 0 15px;
@@ -550,7 +548,7 @@ main {
 }
 
 .plan-card--price{
-    padding: 5px 0 ;
+    padding: 5px 0;
     margin: 0 auto;
     font-family: 'Inter';
     font-weight: 700;
@@ -608,7 +606,7 @@ main {
     position: relative;
     width: 70%;
     min-width: 190px;
-    max-width: 300px;
+    max-width: 100px;
     height: 250px;
     margin: 50px 20px 0;
     padding: 0 15px;
@@ -668,7 +666,7 @@ main {
     position: relative;
     width: 70%;
     min-width: 190px;
-    max-width: 300px;
+    max-width: 100px;
     height: 250px;
     margin: 50px 20px 0;
     padding: 0 15px;
